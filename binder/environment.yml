@@ -1,4 +1,23 @@
+name: launchpad
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
 dependencies:
-  - matplotlib
-  - numpy
-  - pandas
+  - python=3.9
+  - r-base=4.0
+  - r-dplyr
+  - r-ggplot2
+  - r-reshape2
+  - r-tidyverse
+  - r-plotly
+  - r-stringr
+  - pip
+  - pip:
+    - pandas
+    - matplotlib
+    - numpy
+    - statsmodels
+    - seaborn
+    - scikit-learn
+    - plotly
